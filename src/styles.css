@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+header form{
+
+    padding-right: 30%;
+}
+
+header input{
+    padding: 10px;
+}
+
+li{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-danger{
+    color: white;
+background-color: red;
+    float: right;
+}
+header{
+    padding: 0;
+    color: white;
+    background-color: green;
+}
+
+.container{
+
+    margin-left: 10%;
+}
+.main h2{
+margin-bottom: 0;
+}
+
+ul,h2,form{
+    margin-left: 10px;
+    padding-left: 0;
+}
+ul{
+    padding: 10px;
+}
+#button{
+
+   display: flex;
+   flex-direction: row;
+padding-bottom: 10px;
+}
+.btn-dark{
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+    width: 95%;
+
+    background-color: black;
+}
+li{
+margin-top: -1px;
+    border: 1px solid black;
+padding: 10px 10px 10px 10px;
+    list-style: none;
+}
+.main .container{
+    width: 75%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.box{
+    background-color: green;
+width: 90%;
+    height: 400px;
+}
